@@ -34,8 +34,8 @@ class convertion:
             self.a[convive1][convive2] = 1                      # Ajout de 1 dans la matrice a[i][j] pour chaque relation existante 
 
 
-        for i in range(self.nbConvives):
-            print(f"i : {i} ,Vi: {len(self.listeRelation[i])}, Ci: {self.listeConvives[i]}")
+        #for i in range(self.nbConvives):
+            #print(f"i : {i} ,Vi: {len(self.listeRelation[i])}, Ci: {self.listeConvives[i]}")
 
         
         self.tabRelation = [[0 for i in range(self.nbConvives)] for j in range(self.nbConvives)]
@@ -48,8 +48,8 @@ class convertion:
                         self.tabRelation[i][j] = 1
                     else:
                         self.tabRelation[i][j] = 0
-        for i in range(self.nbConvives):
-            print(f"{len(self.tabRelation[i])}")
+        #for i in range(self.nbConvives):
+            #print(f"{len(self.tabRelation[i])}")
     
     # Création du vecteur des coef xi de la contrainte (self.ligne = [coef_x1,coef_x2,coef_x3,...,coef_xN])
         self.ligne=[0 for i in range(self.nbConvives)]    
