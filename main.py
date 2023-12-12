@@ -9,5 +9,3 @@ if __name__ == "__main__":
     
 
 
-    # exemple d'execution
-    # python3 main.py small/instance1.txt instance1.lp  
